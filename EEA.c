@@ -39,7 +39,7 @@ and specified by:
 	Output: two integers G (gcd) e I (inverse), such as I = X-1 mod N; if the inverse doesn't exist 
 	it must be written the letter "N".
 
-and Menezes' algorithm 2.107 found on Handbook of Applied Cryptography, Alfred J. Menezes,
+and a adaptation of Menezes' algorithm 2.107 found on Handbook of Applied Cryptography, Alfred J. Menezes,
 Paul C. van Oorschot,Scott A. Vanstone since its adaptability for use with non-vector values:
 	Algorithm: Extended Euclidean algorithm. (Ref: [MENE97], Algorithm 2.107)
 	INPUT: Two non-negative integers a and b with a ≥ b.
